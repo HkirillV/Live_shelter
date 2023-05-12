@@ -1,0 +1,23 @@
+.header {
+  height: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 31px 32px 89px 48px;
+}
+
+.navigation {
+  display: flex;
+  column-gap: 35px;
+  list-style-type: none;
+  margin: 0;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+}
