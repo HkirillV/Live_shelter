@@ -9,6 +9,13 @@
 @import "base/base";
 @import "base/buttons";
 @import "base/icons";
+@import "base/logo";
+
 
 // Layouts
 @import "layouts/header";
+@import "layouts/wrapper";
+
+//Components
+@import "components/navigation";
+@import "components/promo";

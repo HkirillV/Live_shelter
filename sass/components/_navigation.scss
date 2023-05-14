@@ -1,0 +1,19 @@
+.navigation__link {
+  cursor: pointer;
+  @extend %transition;
+  &:hover {
+    color: $color-white;
+    border-bottom: 3px solid $color-border;
+    padding-bottom: 3px;
+  }
+}
+
+.header__navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
