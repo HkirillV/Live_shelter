@@ -16,7 +16,34 @@
 }
 
 .about__content {
-  height: 308px;
   padding: 14px 175px 14px 0;
-  border: 3px solid red;
+}
+
+.about__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+  color: $color-about-title;
+  margin: 0;
+}
+
+.about__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 160%;
+  color: $color-about-text;
+}
+
+.about__padding {
+  padding-top: 23px;
+}
+
+.about__table {
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  color: $color-white;
+  width: 430px;
+  height: 380px;
 }

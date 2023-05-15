@@ -1,0 +1,17 @@
+
+.pets__h3 {
+  padding: 0 400px 60px 400px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 130%;
+  color: $color-about-title;
+}
+
+.pets__card {
+  display: flex;
+  justify-content: space-between;
+}
