@@ -128,4 +128,27 @@ body {
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.about__image {
+  background-repeat: no-repeat;
+  height: 408px;
+  width: 300px;
+  padding: 0 120px 0 175px;
+}
+
+.about {
+  background-color: #FFFFFF;
+}
+
+.about__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 40px 100px 40px;
+}
+
+.about__content {
+  height: 308px;
+  padding: 14px 175px 14px 0;
+  border: 3px solid red;
+}
+
 /*# sourceMappingURL=style.css.map */
