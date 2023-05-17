@@ -14,3 +14,56 @@
   display: flex;
   justify-content: space-between;
 }
+
+.pets__katrine {
+  background: $color-pets;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+}
+
+.pets__jennifer {
+  background: $color-pets;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+}
+
+.pets__woody {
+  background: $color-pets;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+}
+
+.katrine__text {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.0rem;
+  color: $color-about-title;
+}
+
+.jennifer__text {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.0rem;
+  color: $color-about-title;
+}
+
+.woody__text {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.0rem;
+  color: $color-about-title;
+}
+
+.learn__block {
+  display: flex;
+  justify-content: center;
+}

@@ -12,18 +12,51 @@
   cursor: pointer;
 }
 
-.button__arrow {
+.arrow__left {
   width: 52px;
   height: 52px;
   border: 2px solid #F1CDB3;
   border-radius: 100px;
+  cursor: pointer;
 }
 
-.arrow__left {
+.button__arrow {
   display: flex;
   align-items: center;
 }
 
-.test {
+.button__katrine {
+  width: 187px;
+  height: 52px;
+  border-radius: 100px;
+  border: 2px solid $color-botton;
+  cursor: pointer;
+  &:hover {
+    background: green;
+    @extend %transition;
+  }
+}
 
+.button__jennifer {
+  width: 187px;
+  height: 52px;
+  border-radius: 100px;
+  border: 2px solid $color-botton;
+  cursor: pointer;
+  &:hover {
+    background: green;
+    @extend %transition;
+  }
+}
+
+.button__woody {
+  width: 187px;
+  height: 52px;
+  border-radius: 100px;
+  border: 2px solid $color-botton;
+  cursor: pointer;
+  &:hover {
+    background: green;
+    @extend %transition;
+  }
 }
