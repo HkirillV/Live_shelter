@@ -2,7 +2,7 @@
   width: 207px;
   height: 52px;
   border-radius: 100px;
-  background: $color-botton;
+  background: $color-button;
   display: flex;
   align-items: center;
   padding: 15px 45px;
@@ -29,7 +29,7 @@
   width: 187px;
   height: 52px;
   border-radius: 100px;
-  border: 2px solid $color-botton;
+  border: 2px solid $color-button;
   cursor: pointer;
   &:hover {
     background: green;
@@ -41,7 +41,7 @@
   width: 187px;
   height: 52px;
   border-radius: 100px;
-  border: 2px solid $color-botton;
+  border: 2px solid $color-button;
   cursor: pointer;
   &:hover {
     background: green;
@@ -53,10 +53,17 @@
   width: 187px;
   height: 52px;
   border-radius: 100px;
-  border: 2px solid $color-botton;
+  border: 2px solid $color-button;
   cursor: pointer;
   &:hover {
     background: green;
     @extend %transition;
   }
+}
+
+.button__primary {
+  width: 261px;
+  height: 52px;
+  border-radius: 100px;
+  background: $color-button;
 }

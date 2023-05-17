@@ -1,3 +1,10 @@
+.pets {
+  background-color: $color-pets;
+}
+.pets__wrapper {
+  padding: 80px 40px 100px 40px;
+}
+
 .pets__h3 {
   padding: 0 400px 60px 400px;
   display: flex;
@@ -66,4 +73,10 @@
 .learn__block {
   display: flex;
   justify-content: center;
+}
+
+.primary__block {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
 }
