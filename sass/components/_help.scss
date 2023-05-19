@@ -1,0 +1,42 @@
+.help {
+  background: $color-white;
+}
+.help__wrapper {
+  padding: 80px 40px 100px 40px;
+}
+.tool__block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 281px;
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.text__block {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: normal;
+  color: $color-about-title;
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 130%;
+}
+
+.help__text {
+  color: $color-about-title;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.0rem;
+}
+
+.help__vitamins {
+  padding-left: 84px;
+}
+
+.help__sleeping {
+  padding-right: 84px;
+}
