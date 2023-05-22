@@ -70,3 +70,16 @@
   border: none;
   cursor: pointer;
 }
+
+.credit__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  width: 349px;
+  height: 43px;
+  border-radius: 9px;
+  background: $color-border;
+  border: none;
+  cursor: pointer;
+}

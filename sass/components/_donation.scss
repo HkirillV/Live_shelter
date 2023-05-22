@@ -1,0 +1,48 @@
+.donation {
+  background: $color-pets;
+}
+
+.donation__layout {
+  display: flex;
+  justify-content: center;
+  width: 915px;
+  height: 282px;
+  padding: 80px 182px 100px 183px;
+}
+
+.donation__contact {
+  width: 380px;
+  height: 282px;
+  padding-left: 30px;
+}
+
+.donation__heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  color: $color-about-title;
+}
+
+.donation__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 110%;
+  color: $color-about-title;
+}
+
+.credit__card {
+  width: 100%;
+  font-weight: 400;
+  font-size: 2.0rem;
+  line-height: 115%;
+  color: $color-about-title;
+}
+
+.credit__text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: $color-credit-text;
+}
