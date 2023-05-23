@@ -1,4 +1,85 @@
 .footer {
   background: radial-gradient(110.67% 538.64% at 5.73% 50%, #513D2F 0%, #1A1A1C 100%), #211F20;
-  height: 350px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 40px 0 40px;
+}
+
+.footer__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 130%;
+  color: $color-white;
+}
+
+.link__email {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  text-decoration: none;
+  color: $color-button;
+}
+
+.email__text {
+  padding-left: 20px;
+}
+
+.link__phone {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  text-decoration: none;
+  color: $color-button;
+}
+
+.phone__text {
+  padding-left: 20px;
+}
+
+.block__phone {
+  padding-top: 30px;
+}
+
+.link__boston {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  text-decoration: none;
+  color: $color-button;
+}
+
+.boston__text {
+  padding-left: 20px;
+}
+
+.link__london {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 115%;
+  text-decoration: none;
+  color: $color-button;
+}
+
+.london__text {
+  padding-left: 20px;
+}
+
+.block__london {
+  padding-top: 35px;
 }
