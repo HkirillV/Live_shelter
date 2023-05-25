@@ -8,6 +8,9 @@
   align-items: center;
   color: #FFFFFF;
   padding: 31px 32px 89px 48px;
+  @include media-tablet {
+    padding-bottom: 0;
+  }
 }
 
 .navigation {

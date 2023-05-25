@@ -3,6 +3,12 @@
   justify-content: space-between;
   width: 100%;
   height: 711px;
+  @include media-tablet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1015px;
+  }
 }
 
 .promo__title {
@@ -14,14 +20,20 @@
 }
 
 .promo__img {
-  background-image: url("/img/start-screen-puppy.png");
   width: 698px;
   height: 100%;
   background-repeat: no-repeat;
+  @include media-tablet {
+    padding: 109px 0 0 70px;
+    height: 593px;
+  }
 }
 
 .promo__content {
   padding: 163px 42px 243px 0;
+  @include media-tablet {
+    padding: 0;
+  }
 }
 
 .promo__text {

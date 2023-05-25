@@ -1,4 +1,11 @@
 .button {
+  @include media-tablet {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.button__promo {
   width: 207px;
   height: 52px;
   border-radius: 100px;

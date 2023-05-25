@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: Arial, "Noto Serif Georgian", serif;
-  margin: 0;
+  margin: 0 auto;
 }
 
 .main {
@@ -16,8 +16,20 @@ body {
   background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) #211F20;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+@media (max-width: 768px) {
+  .main {
+    height: 1165px;
+  }
+}
 
-.button {
+@media (max-width: 768px) {
+  .button {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.button__promo {
   width: 207px;
   height: 52px;
   border-radius: 100px;
@@ -129,6 +141,11 @@ body {
   align-items: center;
   color: #FFFFFF;
   padding: 31px 32px 89px 48px;
+}
+@media (max-width: 768px) {
+  .header__wrapper {
+    padding-bottom: 0;
+  }
 }
 
 .navigation {
@@ -260,6 +277,14 @@ body {
   width: 100%;
   height: 711px;
 }
+@media (max-width: 768px) {
+  .promo__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1015px;
+  }
+}
 
 .promo__title {
   font-style: normal;
@@ -270,14 +295,24 @@ body {
 }
 
 .promo__img {
-  background-image: url("/img/start-screen-puppy.png");
   width: 698px;
   height: 100%;
   background-repeat: no-repeat;
 }
+@media (max-width: 768px) {
+  .promo__img {
+    padding: 109px 0 0 70px;
+    height: 593px;
+  }
+}
 
 .promo__content {
   padding: 163px 42px 243px 0;
+}
+@media (max-width: 768px) {
+  .promo__content {
+    padding: 0;
+  }
 }
 
 .promo__text {
