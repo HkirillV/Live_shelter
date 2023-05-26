@@ -1,5 +1,8 @@
 .donation {
   background: $color-pets;
+  @include media-tablet {
+    height: 783px;
+  }
 }
 
 .donation__layout {
@@ -8,12 +11,20 @@
   width: 915px;
   height: 282px;
   padding: 80px 182px 100px 183px;
+  @include media-tablet {
+    flex-direction: column-reverse;
+    height: 100%;
+    padding: 0;
+  }
 }
 
 .donation__contact {
   width: 380px;
   height: 282px;
   padding-left: 30px;
+  @include media-tablet {
+    padding: 80px 194px 60px 194px;
+  }
 }
 
 .donation__heading {
@@ -42,7 +53,15 @@
 .credit__text {
   font-style: italic;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 1.2rem;
   line-height: 18px;
   color: $color-credit-text;
+}
+
+.img__dog {
+  @include media-tablet {
+    height: 261px;
+    width: 505px;
+    padding: 0 132px 100px 132px;
+  }
 }

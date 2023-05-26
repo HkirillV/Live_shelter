@@ -9,6 +9,11 @@
   flex-wrap: wrap;
   justify-content: space-between;
   height: 281px;
+  @include media-tablet {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
 }
 .break {
   flex-basis: 100%;
@@ -22,7 +27,7 @@
   font-style: normal;
   color: $color-about-title;
   font-weight: 400;
-  font-size: 35px;
+  font-size: 3.5rem;
   line-height: 130%;
 }
 
@@ -39,4 +44,14 @@
 
 .help__sleeping {
   padding-right: 84px;
+}
+
+.icon__tag {
+  display: flex;
+  text-align: center;
+}
+
+.help__tool {
+  display: flex;
+  justify-content: center;
 }
