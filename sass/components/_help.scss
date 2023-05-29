@@ -3,16 +3,24 @@
 }
 .help__wrapper {
   padding: 80px 40px 100px 40px;
+  @include media-tablet {
+    padding: 80px 69px 100px 69px;
+    width: 630px;
+    height: 599px;
+  }
 }
 .tool__block {
   display: flex;
-  flex-wrap: wrap;
   justify-content: space-between;
+  flex-wrap: wrap;
   height: 281px;
+  max-width: 1026px;
+  padding: 60px 87px 0 87px;
   @include media-tablet {
     flex-direction: column;
-    justify-content: center;
     padding: 0;
+    width: 630px;
+    height: 449px;
   }
 }
 .break {
@@ -38,14 +46,6 @@
   font-size: 2.0rem;
 }
 
-.help__vitamins {
-  padding-left: 84px;
-}
-
-.help__sleeping {
-  padding-right: 84px;
-}
-
 .icon__tag {
   display: flex;
   text-align: center;
@@ -54,4 +54,68 @@
 .help__tool {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item__pet {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__transportation {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+.item__toys {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__bowls {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__vitamins {
+  padding-right: 120px;
+  padding-left: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__shampoos {
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__medicines {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__collars {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__sleeping {
+  padding-right: 84px;
+  @include media-tablet {
+    padding: 0;
+  }
 }
