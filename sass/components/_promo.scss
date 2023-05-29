@@ -9,6 +9,9 @@
     align-items: center;
     height: 1015px;
   }
+  @include media-mobile-small {
+    height: 673px;
+  }
 }
 
 .promo__title {
@@ -17,6 +20,12 @@
   font-size: 4.4rem;
   line-height: 130%;
   color: $color-white;
+  @include media-mobile-small {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+  }
 }
 
 .promo__img {
@@ -27,12 +36,21 @@
     padding: 109px 0 0 70px;
     width: 569px;
   }
+  @include media-mobile-small {
+    width: 260px;
+    height: 264px;
+  }
 }
 
 .promo__content {
   padding: 163px 42px 243px 0;
   @include media-tablet {
     padding: 0;
+  }
+  @include media-mobile-small {
+    padding: 45px 10px 0 10px;
+    width: 300px;
+    height: 296px;
   }
 }
 
@@ -45,4 +63,11 @@
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: $color-navigation;
   padding-bottom: 42px;
+  @include media-mobile-small {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 96px;
+  }
 }

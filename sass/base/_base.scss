@@ -13,4 +13,7 @@ body {
   @include media-tablet {
     height: 1165px;
   }
+  @include media-mobile-small {
+    height: 823px;
+  }
 }

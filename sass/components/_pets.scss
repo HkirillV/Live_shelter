@@ -39,6 +39,9 @@
   width: 270px;
   height: 435px;
   border-radius: 9px;
+  @include media-mobile-small {
+    display: none;
+  }
 }
 
 .pets__woody {
@@ -47,6 +50,9 @@
   height: 435px;
   border-radius: 9px;
   @include media-tablet {
+    display: none;
+  }
+  @include media-mobile-small {
     display: none;
   }
 }
