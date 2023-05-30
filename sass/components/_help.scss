@@ -1,5 +1,9 @@
 .help {
   background: $color-white;
+  @include media-mobile-small {
+    width: 320px;
+    height: 745px;
+  }
 }
 .help__wrapper {
   padding: 80px 40px 100px 40px;
@@ -7,6 +11,11 @@
     padding: 80px 69px 100px 69px;
     width: 630px;
     height: 599px;
+  }
+  @include media-mobile-small {
+    width: 320px;
+    height: 745px;
+    padding: 0;
   }
 }
 .tool__block {
@@ -21,6 +30,12 @@
     padding: 0;
     width: 630px;
     height: 449px;
+  }
+  @include media-mobile-small {
+    flex-direction: inherit;
+    padding: 42px 15px 42px 15px;
+    width: 290px;
+    height: 555px;
   }
 }
 .break {
@@ -37,6 +52,9 @@
   font-weight: 400;
   font-size: 3.5rem;
   line-height: 130%;
+  @include media-mobile-small {
+    font-size: 2.5rem;
+  }
 }
 
 .help__text {
@@ -44,6 +62,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 2.0rem;
+  @include media-mobile-small {
+    font-size: 1.5rem;
+  }
 }
 
 .icon__tag {
@@ -56,6 +77,10 @@
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  @include media-mobile-small {
+    width: 130px;
+    height: 87px;
+  }
 }
 
 .item__pet {

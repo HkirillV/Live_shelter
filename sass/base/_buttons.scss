@@ -31,6 +31,11 @@
 .button__arrow {
   display: flex;
   align-items: center;
+  @include media-mobile-small {
+    width: 52px;
+    height: 52px;
+    order: 2;
+  }
 }
 
 .button__katrine {
