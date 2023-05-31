@@ -94,4 +94,15 @@
   background: $color-border;
   border: none;
   cursor: pointer;
+  @include media-mobile-small {
+    justify-content: center;
+    width: 281px;
+  }
+}
+
+.block__credit-button {
+  @include media-mobile-small {
+    display: flex;
+    justify-content: center;
+  }
 }

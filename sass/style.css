@@ -15,7 +15,6 @@ body {
   height: 908px;
   background: radial-gradient(100% 215.42% at 0% 0%, #5B483A 0%, #262425 100%) #211F20;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  overflow-y: hidden;
 }
 @media (max-width: 768px) {
   .main {
@@ -124,6 +123,19 @@ body {
   border: none;
   cursor: pointer;
 }
+@media (max-width: 320px) {
+  .credit__button {
+    justify-content: center;
+    width: 281px;
+  }
+}
+
+@media (max-width: 320px) {
+  .block__credit-button {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .icon__tag {
   display: flex;
@@ -134,6 +146,13 @@ body {
   .icon__tag {
     width: 50px;
     height: 50px;
+  }
+}
+
+@media (max-width: 320px) {
+  .icon__dog {
+    width: 260px;
+    height: 136px;
   }
 }
 
@@ -887,6 +906,11 @@ body {
     height: 783px;
   }
 }
+@media (max-width: 320px) {
+  .donation {
+    height: 542px;
+  }
+}
 
 .donation__layout {
   display: flex;
@@ -902,6 +926,11 @@ body {
     padding: 0;
   }
 }
+@media (max-width: 320px) {
+  .donation__layout {
+    width: 320px;
+  }
+}
 
 .donation__contact {
   width: 380px;
@@ -913,12 +942,27 @@ body {
     padding: 80px 194px 60px 194px;
   }
 }
+@media (max-width: 320px) {
+  .donation__contact {
+    width: 300px;
+    height: 281px;
+    padding: 0 10px 42px 10px;
+  }
+}
 
 .donation__heading {
   font-style: normal;
   font-weight: 400;
   font-size: 3.5rem;
   color: #545454;
+}
+@media (max-width: 320px) {
+  .donation__heading {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+  }
 }
 
 .donation__text {
@@ -928,6 +972,13 @@ body {
   line-height: 110%;
   color: #545454;
 }
+@media (max-width: 320px) {
+  .donation__text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
 
 .credit__card {
   width: 100%;
@@ -935,6 +986,11 @@ body {
   font-size: 2rem;
   line-height: 115%;
   color: #545454;
+}
+@media (max-width: 320px) {
+  .credit__card {
+    font-size: 1.5rem;
+  }
 }
 
 .credit__text {
@@ -944,12 +1000,24 @@ body {
   line-height: 18px;
   color: #B2B2B2;
 }
+@media (max-width: 320px) {
+  .credit__text {
+    padding-left: 20px;
+  }
+}
 
 @media (max-width: 768px) {
   .img__dog {
     height: 261px;
     width: 505px;
     padding: 0 132px 100px 132px;
+  }
+}
+@media (max-width: 320px) {
+  .img__dog {
+    width: 260px;
+    height: 136px;
+    padding: 42px 30px 42px 30px;
   }
 }
 
