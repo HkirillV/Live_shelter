@@ -1,0 +1,32 @@
+.header {
+  height: 100%;
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFFFFF;
+  padding: 31px 32px 89px 48px;
+  @include media-tablet {
+    padding-bottom: 0;
+  }
+  @include media-mobile-small {
+    padding: 30px 20px 0 20px;
+  }
+}
+
+.navigation {
+  display: flex;
+  column-gap: 35px;
+  list-style-type: none;
+  margin: 0;
+  @include media-mobile-small {
+    display: none;
+  }
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: column;
+}

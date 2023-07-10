@@ -1,0 +1,100 @@
+.donation {
+  background: $color-pets;
+  @include media-tablet {
+    height: 783px;
+  }
+  @include media-mobile-small {
+    height: 542px;
+  }
+}
+
+.donation__layout {
+  display: flex;
+  justify-content: center;
+  width: 915px;
+  height: 282px;
+  padding: 80px 182px 100px 183px;
+  @include media-tablet {
+    flex-direction: column-reverse;
+    height: 100%;
+    padding: 0;
+  }
+  @include media-mobile-small {
+    width: 320px;
+  }
+}
+
+.donation__contact {
+  width: 380px;
+  height: 282px;
+  padding-left: 30px;
+  @include media-tablet {
+    padding: 80px 194px 60px 194px;
+  }
+  @include media-mobile-small {
+    width: 300px;
+    height: 281px;
+    padding: 0 10px 42px 10px;
+  }
+}
+
+.donation__heading {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  color: $color-about-title;
+  @include media-mobile-small {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+}
+
+.donation__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 110%;
+  color: $color-about-title;
+  @include media-mobile-small {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.credit__card {
+  width: 100%;
+  font-weight: 400;
+  font-size: 2.0rem;
+  line-height: 115%;
+  color: $color-about-title;
+  @include media-mobile-small {
+    font-size: 1.5rem;
+  }
+}
+
+.credit__text {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 18px;
+  color: $color-credit-text;
+  @include media-mobile-small {
+    padding-left: 20px;
+  }
+}
+
+.img__dog {
+  @include media-tablet {
+    height: 261px;
+    width: 505px;
+    padding: 0 132px 100px 132px;
+  }
+  @include media-mobile-small {
+    width: 260px;
+    height: 136px;
+    padding: 42px 30px 42px 30px;
+  }
+}

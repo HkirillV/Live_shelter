@@ -1,0 +1,139 @@
+.pets {
+  background-color: $color-pets;
+  @include media-mobile-small {
+    height: 791px;
+  }
+}
+.pets__wrapper {
+  padding: 80px 40px 100px 40px;
+  @include media-mobile-small {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 707px;
+    padding: 42px 10px 42px 10px;
+  }
+}
+
+.pets__h3 {
+  padding: 0 400px 60px 400px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 130%;
+  color: $color-about-title;
+  @include media-tablet {
+    justify-content: center;
+    width: 100%;
+    padding: 0;
+  }
+  @include media-mobile-small {
+    font-size: 2.5rem;
+  }
+}
+
+.pets__card {
+  display: flex;
+  justify-content: space-between;
+  @include media-mobile-small {
+    flex-wrap: wrap;
+    padding: 42px 15px 0 15px;
+    width: 270px;
+    height: 507px;
+  }
+}
+
+.pets__katrine {
+  background: $color-pets;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+}
+
+.pets__jennifer {
+  background: $color-pets;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  @include media-mobile-small {
+    display: none;
+  }
+}
+
+.pets__woody {
+  background: $color-pets;
+  width: 270px;
+  height: 435px;
+  border-radius: 9px;
+  @include media-tablet {
+    display: none;
+  }
+  @include media-mobile-small {
+    display: none;
+  }
+}
+
+.katrine__text {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.0rem;
+  color: $color-about-title;
+}
+
+.jennifer__text {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.0rem;
+  color: $color-about-title;
+}
+
+.woody__text {
+  display: flex;
+  justify-content: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.0rem;
+  color: $color-about-title;
+}
+
+.learn__block {
+  display: flex;
+  justify-content: center;
+}
+
+.primary__block {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+  @include media-mobile-small {
+    padding-top: 20px;
+  }
+}
+
+.arrow__right {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.button__right {
+  @include media-mobile-small {
+    padding: 0 43px 0 0;
+  }
+}
+
+.button__left {
+  @include media-mobile-small {
+    padding: 0 0 0 43px;
+  }
+}
+

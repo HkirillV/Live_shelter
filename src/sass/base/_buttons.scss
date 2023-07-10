@@ -1,0 +1,108 @@
+.button {
+  @include media-tablet {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.button__promo {
+  width: 207px;
+  height: 52px;
+  border-radius: 100px;
+  background: $color-button;
+  display: flex;
+  align-items: center;
+  padding: 15px 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.7rem;
+  cursor: pointer;
+  border: none;
+}
+
+.arrow__left {
+  width: 52px;
+  height: 52px;
+  border: 2px solid #F1CDB3;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+.button__arrow {
+  display: flex;
+  align-items: center;
+  @include media-mobile-small {
+    width: 52px;
+    height: 52px;
+    order: 2;
+  }
+}
+
+.button__katrine {
+  width: 187px;
+  height: 52px;
+  border-radius: 100px;
+  border: 2px solid $color-button;
+  cursor: pointer;
+  &:hover {
+    background: green;
+    @extend %transition;
+  }
+}
+
+.button__jennifer {
+  width: 187px;
+  height: 52px;
+  border-radius: 100px;
+  border: 2px solid $color-button;
+  cursor: pointer;
+  &:hover {
+    background: green;
+    @extend %transition;
+  }
+}
+
+.button__woody {
+  width: 187px;
+  height: 52px;
+  border-radius: 100px;
+  border: 2px solid $color-button;
+  cursor: pointer;
+  &:hover {
+    background: green;
+    @extend %transition;
+  }
+}
+
+.button__primary {
+  width: 261px;
+  height: 52px;
+  border-radius: 100px;
+  background: $color-button;
+  border: none;
+  cursor: pointer;
+}
+
+.credit__button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 15px;
+  width: 349px;
+  height: 43px;
+  border-radius: 9px;
+  background: $color-border;
+  border: none;
+  cursor: pointer;
+  @include media-mobile-small {
+    justify-content: center;
+    width: 281px;
+  }
+}
+
+.block__credit-button {
+  @include media-mobile-small {
+    display: flex;
+    justify-content: center;
+  }
+}

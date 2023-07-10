@@ -1,0 +1,16 @@
+.icon__tag {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  @include media-mobile-small {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+.icon__dog {
+  @include media-mobile-small {
+    width: 260px;
+    height: 136px;
+  }
+}

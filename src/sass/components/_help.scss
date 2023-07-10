@@ -1,0 +1,146 @@
+.help {
+  background: $color-white;
+  @include media-mobile-small {
+    width: 320px;
+    height: 745px;
+  }
+}
+.help__wrapper {
+  padding: 80px 40px 100px 40px;
+  @include media-tablet {
+    padding: 80px 69px 100px 69px;
+    width: 630px;
+    height: 599px;
+  }
+  @include media-mobile-small {
+    width: 320px;
+    height: 745px;
+    padding: 0;
+  }
+}
+.tool__block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 281px;
+  max-width: 1026px;
+  padding: 60px 87px 0 87px;
+  @include media-tablet {
+    flex-direction: column;
+    padding: 0;
+    width: 630px;
+    height: 449px;
+  }
+  @include media-mobile-small {
+    flex-direction: inherit;
+    padding: 42px 15px 42px 15px;
+    width: 290px;
+    height: 555px;
+  }
+}
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
+.text__block {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-style: normal;
+  color: $color-about-title;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 130%;
+  @include media-mobile-small {
+    font-size: 2.5rem;
+  }
+}
+
+.help__text {
+  color: $color-about-title;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.0rem;
+  @include media-mobile-small {
+    font-size: 1.5rem;
+  }
+}
+
+.icon__tag {
+  display: flex;
+  text-align: center;
+}
+
+.help__tool {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  @include media-mobile-small {
+    width: 130px;
+    height: 87px;
+  }
+}
+
+.item__pet {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__transportation {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+.item__toys {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__bowls {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__vitamins {
+  padding-right: 120px;
+  padding-left: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__shampoos {
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__medicines {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__collars {
+  padding-right: 120px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
+
+.item__sleeping {
+  padding-right: 84px;
+  @include media-tablet {
+    padding: 0;
+  }
+}
